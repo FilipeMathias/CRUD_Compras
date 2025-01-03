@@ -17,7 +17,7 @@ public class ComprarProdutos extends OperacaoMenu{
         boolean continua = true;
 
         while (continua){
-            System.out.println("Informe o código do produto que deseja comprar");
+            System.out.println("Informe o código do produto que deseja comprar ");
             String codigoCompra = scanner.nextLine();
             for(Produtos produto: produtos){
                 String codigoCatalogo = produto.getCodigo();

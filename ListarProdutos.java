@@ -14,6 +14,7 @@ public class ListarProdutos extends OperacaoMenu{
         Scanner scanner = new Scanner(System.in);
 
         while (escolha != 4) {
+
             System.out.println("Informe o método de listagem do produto");
             System.out.println("1 - Para listagem por nome");
             System.out.println("2 - Para listagem por código");

@@ -9,7 +9,7 @@ public class BuscarProdutos extends OperacaoMenu{
     public void executar (){
         
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Informe o nome, o código ou o valor do produto que deseja encontrar:");
+        System.out.println("Informe o nome, o código ou o valor do produto que deseja encontrar: ");
         String item = scanner.nextLine();
         boolean encontrado = false;
 
